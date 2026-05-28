@@ -31,4 +31,5 @@ myKernel.iso: myKernel.bin
 	rm -rf iso
 
 run: myKernel.iso
+	(killall VirtualBox && sleep 1) || true
 	VirtualBox --startvm "My Operating System" &

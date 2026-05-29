@@ -15,3 +15,6 @@ make myKernel.bin
 make myKernel.iso
 
 make run
+
+### for cleaning up leave only the source files
+make clean
